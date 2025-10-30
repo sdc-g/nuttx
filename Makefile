@@ -36,6 +36,7 @@ include .config
 
 ifeq ($(CONFIG_WINDOWS_NATIVE),y)
 include tools/Win.mk
+
 else
 include tools/Unix.mk
 endif
